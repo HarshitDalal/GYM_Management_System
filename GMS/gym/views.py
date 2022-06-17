@@ -23,7 +23,7 @@ def Contact(request):
 
 
 def Login(request):
-    error = "no"
+    error = ""
     if request.method == 'POST':
         u = request.POST['uname']
         p = request.POST['pwd']
